@@ -23,7 +23,7 @@ Installation
 ------------
 - Copy to your openFrameworks/addons folder
 - Generate a new project using projectGenerator
-- AFTER generating project, download and copy dlib to ofxCorrectPerspective/src
+- AFTER generating project, download and copy 'dlib' from http://dlib.net to ofxCorrectPerspective/src
 
 Dependencies
 ------------
@@ -36,5 +36,5 @@ openFrameworks V 0.8.0 Windows-CodeBlocks
 
 Version History
 ---------------
-### v1.0 5/15/2014
+#### v1.0 5/15/2014
 - initial version
