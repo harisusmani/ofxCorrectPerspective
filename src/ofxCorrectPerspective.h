@@ -17,7 +17,7 @@ extern "C" {
 #include "../libs/lsd/lsd.h"
 }
 
-#include "dlib/optimization.h" //Make sure you place dlib here AFTER generating the project, NOT before.
+#include "dlib/optimization.h" //Make sure you place dlib at this path AFTER generating the project, NOT before.
                                 //Download dlib C++ Library from http://dlib.net
 
 class ofxCorrectPerspective{
