@@ -20,6 +20,11 @@ extern "C" {
 #include "dlib/optimization.h" //Make sure you place dlib at this path AFTER generating the project, NOT before.
                                 //Download dlib C++ Library from http://dlib.net
 
+                                //Then in dlib/optimization/optimization_bobyqa.h:
+                                //Comment Lines: 393, 659, 873, 922
+                                //Uncomment:     394, 660, 874, 923
+                                //This is required to ignore bobyqa failures in the RANSAC Process.
+
 class ofxCorrectPerspective{
 
 	public:
